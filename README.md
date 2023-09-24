@@ -11,3 +11,8 @@ Given a version number **MAJOR.MINOR.PATCH**, increment the:
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 [semver.org](https://semver.org/)
+
+We can check if AWS credentials configured correctly using this command:
+```
+aws sts get-caller-identity
+```
