@@ -16,3 +16,25 @@ We can check if AWS credentials configured correctly using this command:
 ```
 aws sts get-caller-identity
 ```
+
+### List of main terraform commands:
+1. Format code 
+```
+terraform fmt
+```  
+2. Validate code
+```
+terraform validate
+``` 
+3. Initialization
+```
+terraform init
+```
+4. Review a plan
+```
+terraform plan
+```
+5. Apply changes
+```
+terraform apply
+```
